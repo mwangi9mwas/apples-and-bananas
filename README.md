@@ -13,6 +13,11 @@
             background: url('https://source.unsplash.com/1600x900/?love,romantic') no-repeat center center fixed;
             background-size: cover;
             color: white;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
         #yes, #no {
             font-size: 20px;
@@ -35,7 +40,7 @@
     </style>
 </head>
 <body>
-    <h1>Will You Be My Girlfriend? ❤️</h1>
+    <h1>For the last one year we've been talking, I've had the time of my life. 💖<br>Every smile, every laugh, every moment with you feels like a blessing.<br>Will you make me the happiest person by being my girlfriend? 💫💕</h1>
     <button id="yes">Yes</button>
     <button id="no">No</button>
 
